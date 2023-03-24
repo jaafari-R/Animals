@@ -13,6 +13,7 @@ public:
     Invertebrate(std::string_view description);
     virtual ~Invertebrate();
 
+    virtual void breathe();
 private:
 };
 
